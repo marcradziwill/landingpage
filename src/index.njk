@@ -1,6 +1,12 @@
 <html>
 <head>
-  </script>
+
+  {# Font Lato #}
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap" media="print" onload="this.media='all'"/>
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap"/></noscript>
+
   {% set css %}
   {% include "css/styles.css" %}
   {% endset %}
@@ -12,17 +18,15 @@
 
 <div class="split left">
   <div class="centered">
-    <img src="img_avatar2.png" alt="Avatar woman">
-    <h2>Jane Flex</h2>
-    <p>Some text.</p>
+    <h1>Let us be bold.</h1>
+    <p class="subline">Deine Expertise zeigen und online sichtbar machen.</p>
   </div>
 </div>
 
 <div class="split right">
   <div class="centered">
-    <img src="img_avatar.png" alt="Avatar man">
-    <h2>John Doe</h2>
-    <p>Some text here too.</p>
+    <img src="/assets/images/200929_Logo_BoldYou_final_BoldYou_beige.png" alt="Avatar man">
+    <p class="text">Ab März 2021 für euch hier sichtbar. <a href="mailto:you@bold-you.com">you@bold-you.com</a></p>
   </div>
 </div>
 </html>

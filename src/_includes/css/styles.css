@@ -1,3 +1,12 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-size: 55px;
+}
+.subline {
+  font-size: 40px;
+}
 .split {
     height: 100%;
     width: 50%;
@@ -11,13 +20,18 @@
   /* Control the left side */
   .left {
     left: 0;
-    background-color: #111;
+    color: #ED6F70;
+    background-color: #F9F1E4;
   }
   
   /* Control the right side */
   .right {
     right: 0;
-    background-color: red;
+    color: #F9F1E4;
+    background-color: #ED6F70;
+  }
+  .right a {
+    color: #F9F1E4;
   }
   
   /* If you want the content centered horizontally and vertically */
@@ -25,12 +39,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-  /* Style the image inside the centered container, if needed */
-  .centered img {
-    width: 150px;
-    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
